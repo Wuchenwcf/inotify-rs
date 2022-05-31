@@ -15,6 +15,7 @@ use inotify::{
 };
 
 
+
 fn main() {
     let mut inotify = Inotify::init()
         .expect("Failed to initialize inotify");
